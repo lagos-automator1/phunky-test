@@ -1,0 +1,10 @@
+name: drone-test
+kind: pipeline
+type: docker
+
+steps:
+- name: test
+  image: alpine
+  commands:
+  - echo "It worked!"
+© 2021 GitHub, Inc.
