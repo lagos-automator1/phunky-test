@@ -6,5 +6,5 @@ steps:
 - name: test
   image: alpine
   commands:
-  - echo "This proves Git connection to Drone via cli works after Drone RPC change!"
+  - echo "This proves Git commits to Drone actually works!!!"
 
