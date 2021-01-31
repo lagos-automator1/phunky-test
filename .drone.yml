@@ -7,4 +7,4 @@ steps:
   image: alpine
   commands:
   - echo "This proves Git commits to Drone actually works!!!"
-
+  - echo "Additional lines added"
